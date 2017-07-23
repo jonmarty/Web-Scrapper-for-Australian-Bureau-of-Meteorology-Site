@@ -22,8 +22,13 @@ Area - City/Town were location is located
 Location - Specific location in Area
 
 METHODS for this class:
+
 *using map_to allows you to specify the type of the outputs, which are stings by default
+
 extractByField(Field, map_to = None) - extract an array representing all the entries of a certain field currently shown on the site
+
 extractByFieldTime(Field, datetime, map_to = None) - extracts the entry of a certain field based on a specified timestamp, which is [day in month]/[time]
+ 
 dailyFieldTime(Field, Time, outfile) - extracts an entry from a specific field and time on a daily basis and writes it to a csv file
+
 hourlyFieldTime(Field, Time, outfile) - extracts an entry from a specific field on an hourly basis and writes it to a csv file
