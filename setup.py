@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='BOM',
-    version='0.0.1',
+    version='0.0.2',
     py_modules=['BOM'],
     url='https://github.com/jonmarty/Web-Scrapper-for-Australian-Bureau-of-Meteorology-Site',
     license='GNU GENERAL PUBLIC LICENSE',
