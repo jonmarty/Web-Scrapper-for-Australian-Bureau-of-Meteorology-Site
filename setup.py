@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name='BOM',
     version='0.0.1',
-    packages=[''],
+    packages=['BOM'],
     url='https://github.com/jonmarty/Web-Scrapper-for-Australian-Bureau-of-Meteorology-Site',
     license='GNU GENERAL PUBLIC LICENSE',
     author='Jonathan Marty',
